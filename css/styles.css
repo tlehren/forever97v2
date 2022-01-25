@@ -1,0 +1,119 @@
+/* Hero */
+
+.hero .container {
+  animation: fade-in 3s;
+}
+
+.hero .flex {
+  justify-content: space-between;
+}
+
+.heroImage {
+  width: 100%;
+  max-width: 50%;
+  opacity: 50%;
+}
+
+/* about */
+video {
+  width: 100%;
+  height: auto;
+  max-height: 70vh;
+}
+
+.about .flex {
+  justify-content: space-between;
+}
+
+/* success page */
+
+.success {
+  height: 100vh;
+  animation: fade-in 1.5s;
+}
+
+.success h1 {
+  text-transform: none;
+}
+
+.success img {
+  max-width: 25vw;
+}
+.success .flex {
+  flex-direction: column;
+}
+
+/* contact */
+
+.contact {
+  height: initial;
+}
+
+.contact .container {
+  margin: auto;
+  width: 50%;
+}
+
+@media (max-width: 760px) {
+  .contact .container {
+    margin: auto;
+    width: 90%;
+  }
+}
+
+fieldset {
+  border: none;
+  width: 70%;
+  margin: 0 auto;
+}
+
+legend {
+  display: none;
+}
+
+label {
+  font-size: 0.7em;
+  font-weight: 700;
+  display: none;
+}
+
+label:focus {
+  color: var(--primary-color);
+}
+
+input,
+textarea {
+  border: none;
+  font-size: var(--fs-300);
+  color: var(--clr-black);
+  border-bottom: 1.5px solid var(--clr-black);
+  transition: 0.23s ease-in-out;
+}
+
+input:focus,
+textarea:focus {
+  outline: none;
+}
+
+.form-control {
+  display: flex;
+  flex-direction: column;
+  padding: 1rem 0;
+}
+
+.contact .btn {
+  display: inline-block;
+  padding: 10px 30px;
+  background-color: var(--clr-white);
+  color: var(--clr-black);
+  border: 2px solid var(--clr-black);
+  margin-top: 1em;
+  margin-right: 0.5rem;
+  width: 100%;
+}
+
+/* footer */
+
+.footer p {
+  font-size: 0.8em;
+}

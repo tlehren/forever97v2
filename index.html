@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta property="og:title" content="forever97" />
+    <meta property="og:type" content="website" />
+    <meta property="og:image" content="images//f97-logo-red" />
+    <meta property="og:url" content="https://www.forever97.com" />
+    <title>forever97</title>
+    <link rel="shortcut icon" type="image/svg" href="images/tlFav.svg"/>
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css"
+      integrity="sha512-+4zCK9k+qNFUR5X+cKL9EIR+ZOhtIloNl9GIKS57V1MyNsYpYcUrUeQc9vNfzsWfV28IaLL3i96P9sdNyeRssA=="
+      crossorigin="anonymous"
+    />
+    <link rel="stylesheet" href="css/utilities.css" />
+    <link rel="stylesheet" href="css/styles.css" />
+    <link rel="stylesheet" href="css/menu.css" />
+    <script type="module" src="scripts/script.js"></script>
+  </head>
+
+  <body>
+    <div class="wrapper">
+      <!-- Header -->
+    <header class="header py-3">
+      <div class="container">
+        <a href="/" class="logo"><img src="images/f97-logo-red.png" alt="forever97 logo"></a>
+        <div class="headerRight">
+          <button class="navToggle"><span class="hamburger"></span></button>
+          <nav class="nav">
+              <ul class="navMenu">
+                <li class="navItem"><a href="index.html" class="navLink">Intro</a></li>
+                <li class="navItem"><a href="#about" class="navLink">About</a></li>
+                <li class="navItem"></i><a href="#contact" class="navLink">Connect</a></li>
+              </ul>
+              <div class="socialLinks">
+                <a href="https://www.instagram.com/forever97v/?utm_medium=copy_link" target="_blank"><i class="fab fa-instagram fa-lg"></i></a>
+                <a href="https://twitter.com/forever97v?s=11" target="_blank"><i class="fab fa-twitter fa-lg"></i></a>
+              </div>
+            </div>
+          </nav>
+        </div>
+    </header>
+   
+    <!-- Main -->
+    <main class="main">
+      <!-- hero -->
+      <section class="hero">
+        <div class="container text-center flex">
+          <img class="heroImage" src="images/f97-logo-red.png" alt="forever97 logo image">
+          <a class="btn" href="#about">Learn<i class="fas fa-arrow-down"></i></a>
+        </div>
+      </section>
+
+      <section class="about" id="about">
+        <div class="container flex">
+          <figure class="videoContainer">
+            <video autoplay="autoplay" loop muted>
+              <source src="images/Square.mp4" type="video/mp4" />
+            </video>
+          </figure>
+          <a class="btn" href="#contact">Contact Us<i class="fas fa-arrow-down"></i></a>
+        </div>
+      </section>
+
+      <section class="contact" id="contact">
+        <div class="container">
+          <div class="card">
+            <form name="contact" method="POST" data-netlify="true">
+              <fieldset>
+                <legend>Contact form</legend>
+                <div class="form-control">
+                  <label for="name">First Name</label>
+                  <input
+                    type="text"
+                    name="name"
+                    id="name"
+                    placeholder="Your name"
+                    required=""
+                  />
+                </div>
+        
+                <div class="form-control">
+                  <label for="email">Email</label>
+                  <input
+                    type="email"
+                    name="email"
+                    id="email"
+                    placeholder="Your email"
+                    required=""
+                  />
+                </div>
+                <div class="form-control">
+                  <label for="message">Your Message</label>
+                  <textarea
+                    name="message"
+                    id=""
+                    cols="1"
+                    rows="1"
+                    placeholder="Your message"
+                    required=""
+                  ></textarea>
+                </div>
+                <button type="submit" class="btn">
+                  Submit
+
+                </button>
+              </fieldset>
+            </form>
+          </div>
+        </div>
+
+      </section>
+
+ 
+    </main>
+
+    <!-- Footer -->
+    <footer class="footer">
+      <div class="container flex text-center">
+        <a href="/" class="logo"><img src="images/f97-logo-red.png" alt="forever97 logo"></a>
+        <div class="socialLinks">
+          <a href="https://www.instagram.com/forever97v/?utm_medium=copy_link" target="_blank"><i class="fab fa-instagram fa-lg"></i></a>
+          <a href="https://twitter.com/forever97v?s=11" target="_blank"><i class="fab fa-twitter fa-lg"></i></a>
+          <p>&copy forever97 2022</p>
+        </div>
+      </div>
+    </footer>
+    </div>
+  </body>
+</html>
