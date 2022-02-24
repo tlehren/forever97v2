@@ -96,6 +96,12 @@
   padding-right: 10em;
 }
 
+@media (max-width: 480px) {
+  .header .socialLinks {
+    padding-right: 4em;
+  }
+}
+
 .header .socialLinks:hover {
   color: var(--clr-black);
 }
@@ -133,9 +139,9 @@
   background-color: var(--clr-white);
 }
 
-.navOpen .logo {
-  filter: brightness(200);
-}
+/* .navOpen .logo {
+  filter: brightness(150);
+} */
 
 .navOpen body {
   overflow-y: hidden;

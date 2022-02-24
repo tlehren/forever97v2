@@ -14,6 +14,13 @@
   opacity: 50%;
 }
 
+@media (max-width: 1046px) {
+  .heroImage {
+    width: 100%;
+    max-width: 85%;
+  }
+}
+
 /* about */
 video {
   width: 100%;
