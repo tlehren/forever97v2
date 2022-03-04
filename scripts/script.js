@@ -31,3 +31,8 @@ navItem.forEach((navItem) => {
     document.body.classList.toggle("overflow");
   });
 });
+
+//smoothscroll
+const scroll = new SmoothScroll('a[href*="#"]', {
+  speed: 800,
+});
