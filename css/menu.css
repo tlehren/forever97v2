@@ -48,7 +48,7 @@
   left: 0;
   width: 100vw;
   height: 100vh;
-  transform: translateX(200%);
+  transform: translateY(-100%);
   display: flex;
   flex-direction: column;
   place-items: center;
@@ -58,10 +58,10 @@
       rgba(140, 34, 41, 0.6),
       rgba(140, 34, 41, 0.75)
     ),
-    url("/images/hero-bg.png");
+    url("/images/hero-bg.webp");
   background-position: center;
   background-size: cover;
-  transition: 0.75s ease-in-out;
+  transition: 0.5s ease-in-out;
 }
 
 .navMenu {
@@ -109,7 +109,7 @@
 /* on-click changes */
 .navOpen .nav {
   z-index: 2;
-  transform: translateX(0);
+  transform: translateY(0);
   overflow-y: hidden;
 }
 

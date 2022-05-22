@@ -18,7 +18,7 @@
 .about,
 .contact,
 .footer {
-  background-image: url("/images/hero-bg.png");
+  background-image: url("/images/hero-bg.webp");
   background-size: cover;
   background-position: right;
 }
@@ -36,7 +36,7 @@ blockquote {
 }
 
 section {
-  height: 90vh;
+  min-height: 90vh;
   padding-block: min(15vh, 10rem);
 }
 
