@@ -36,9 +36,7 @@ video {
 
 .success {
   height: 100vh;
-  
 }
-
 
 .success h1 {
   text-transform: none;
@@ -62,7 +60,7 @@ video {
   width: 50%;
 }
 
-@media (max-width: 760px) {
+@media (max-width: 1080px) {
   .contact .container {
     margin: auto;
     width: 90%;
