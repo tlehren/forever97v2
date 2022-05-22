@@ -26,6 +26,7 @@ video {
   width: 100%;
   height: auto;
   max-height: 70vh;
+  margin-bottom: 2rem;
 }
 
 .about .flex {
@@ -93,6 +94,7 @@ textarea {
   font-size: var(--fs-300);
   color: var(--clr-black);
   border-bottom: 1.5px solid var(--clr-black);
+  border-radius: 0;
   transition: 0.23s ease-in-out;
 }
 
