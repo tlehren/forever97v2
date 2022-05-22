@@ -17,7 +17,8 @@
 .hero,
 .about,
 .contact,
-.footer {
+.footer,
+.success {
   background-image: url("/images/hero-bg.webp");
   background-size: cover;
   background-position: right;

@@ -36,8 +36,9 @@ video {
 
 .success {
   height: 100vh;
-  animation: fade-in 1.5s;
+  
 }
+
 
 .success h1 {
   text-transform: none;
